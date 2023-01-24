@@ -1,6 +1,5 @@
 Flask
 gunicorn
-keras
 matplotlib
 numpy
 opencv-python

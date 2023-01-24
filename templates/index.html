@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sudoku Solver</title>
+		<link rel="stylesheet" href="static/bootstrap.min.css" type="text/css">
+	</head>
+	<body>
+		<div class="container">
+			<style>
+				img {
+					object-fit: cover;
+					height: auto;
+					max-width: 90%;
+				}
+			</style>
+			<center>
+				<form action="" class="form-inline" method="post" enctype="multipart/form-data">
+					<div class="form-group mt-4">
+						<h3>Upload Image</h3>
+						<input type="file" name="image" id="image" class="form-control ml-2" required>
+						<input type="submit" class="btn btn-primary mx-2" value="Upload">
+						{% if error %}
+							<span style="color: red;">Invalid image format</span>
+						{% endif %}
+					</div>
+				</form>
+			</center>
+			<div class="row mt-4">
+				<div class="col-xs-12 col-md-6 mb-5">
+					<h3>Input</h3>
+					{% if input_img %}
+						<img src="static/input.jpg">
+					{% endif %}
+				</div>
+				<div class="col-xs-12 col-md-6 mb-5">
+					<h3>Output</h3>
+					{% if output_img %}
+						<img src="static/output.jpg">
+					{% else %}
+						<p>{{ status }}</p>
+					{% endif %}
+				</div>
+			</div>
+		</div>
+		<script src="static/bootstrap.min.js"></script>
+	</body>
+</html>
