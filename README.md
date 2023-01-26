@@ -1,16 +1,3 @@
-# sudoku_solver_app
-
-This program serves as a way to calculate the solution to any 9x9 sudoku puzzle. It identifies the puzzle with OpenCV, runs against a convolucional neural network to predict the digits, and runs an efficient sudoku solver to determine the answer using a backtracking algorithm. Finaly it displays the answer.
----
-
-
----
-pip install -r requierements.txt
-
----
-python app.py
----
----
 
 
 
