@@ -18,9 +18,9 @@ Web app Smart Sudoku Solver that tries to extract a sudoku puzzle from a photo a
   * [Image Preprocessing](https://github.com/rodriguez-fede/sudoku_solver_app/blob/main/README.md#image-preprocessing)
   * [Recognition](https://github.com/rodriguez-fede/sudoku_solver_app/blob/main/README.md#recognition)
 
-[ToDo](https://github.com/neeru1207/AI_Sudoku/blob/master/README.md#todo)
+[ToDo](https://github.com/rodriguez-fede/sudoku_solver_app/blob/main//README.md#todo)
 
-[Contributing](https://github.com/neeru1207/AI_Sudoku/blob/master/README.md#contributing)
+[Contributing](https://github.com/rodriguez-fede/sudoku_solver_app/blob/main/README.md#contributing)
 
 ## Installation
 
